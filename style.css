@@ -27,14 +27,14 @@
     --weight-semi-bold: 600;
     --weight-regular: 400;
 }    
-    /* Universal tags */
+
+/* Universal tags */
 * {
     box-sizing: border-box;
 }
 
 
-  /* Typography */
-
+/* Typography */
 h1 {
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
