@@ -107,11 +107,19 @@ p {
 
 #navbar.navbar--dark {
     background-color: var(--color-pink);
-    padding: 8px;
+    padding: 16px;
 }
 
 .navbar__menu {
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* width: 100%; */
     display: flex;
+}
+
+.navbar__menu.open {
+    background-color: var(--color-pink);
+    display: block;
 }
 
 .navbar__logo {
@@ -403,7 +411,7 @@ p {
 }
 
 .projects__description h3 {
-    color: var(--color-white);
+    color: var(--color-orange);
 }
 
 .projects__description h3:after {
@@ -411,9 +419,9 @@ p {
     display: block;
     position: relative;
     left: 50%;
-    width: 25px;
+    width: 50px;
     height: 2px;
-    margin-left: -12px;
+    transform: translateX(-50%);
     margin-top: 8px;
     background-color: var(--color-dark-white);
 }
